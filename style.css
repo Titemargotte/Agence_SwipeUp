@@ -1,0 +1,17 @@
+.top {
+    background-color: #FAE7DA;
+}
+li{
+    list-style: none;
+    display: inline;
+}
+li:hover{
+    color:#34543C;
+    cursor:pointer
+}
+.list-nav{
+    text-align: center;
+}
+.cote-mama{
+    font-weight: 600;
+}
