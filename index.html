@@ -1,10 +1,48 @@
 <!DOCTYPE html>
     <head>
-        <title>Mettez votre titre ici les gonzs</title>
+        <title>Swipe up</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    clifford: '#da373d',
+                  }
+                }
+              }
+            }
+          </script>
     </head>
 
+
     <body>
-        Ici vous foutez le code de la page, c'est à ça que ça sert le body, c'est pas un summer body, ok les gonzs
-        Salut moi c'est Camille
+        <div class="container">
+          <div class="nos-services" style="display: flex; justify-content: center;">
+            <h1 class="title-black">nos services</h1>
+          </div>
+          <div class="text-caviar">
+              <p class="text-caviar">+ Influence Marketing</p>
+              <p class="text-caviar">+ Social media</p>
+              <p class="text-caviar">+ Brand content</p>
+              <p class="text-caviar">+ Interviews blog</p>
+          </div>
+          <div class="confiance" style="display :flex; justify-content: center;">
+              <h1 class="title-black">elles nous ont fait confiance...</h1>
+          </div>
+          <div class="marques-container">
+            <div class="marques">
+              <li><img src="images/1babyzen.png"></li>
+              <li><img src="images/1izipizi.png"></li>
+              <li><img src="images/1liewood.png"></li>
+            </div>
+            <div class="marques">
+              <li><img src="images/1nobodinoz.png"></li>
+              <li><img src="images/1tajine.png"></li>
+              <li><img src="images/1twistshake.png"></li>
+            </div>
+          </div>
+        </div>
     </body>
 </html>
