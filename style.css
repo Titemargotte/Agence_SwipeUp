@@ -12,8 +12,8 @@
     src: url(./fonts/CaviarDreams_Bold.ttf);
 }
 
-.container {
-    background-image: url(./images/illu\ 3.png);
+.app-container {
+    background-image: url(./images/illu\ mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -21,6 +21,12 @@
 .title-black {
     font-family: 'Modak', cursive;
     font-size: 30px;
+}
+
+.services {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 70px;
 }
 
 .text-caviar {
@@ -33,13 +39,16 @@
 }
 
 .confiance {
-    margin-top: 150px;
+    margin-top: 100px;
+    margin-bottom: 40px;
 }
+
 .marques-container {
     display: flex;
     flex-direction: column;
     gap: 24px;
     margin: 0 30px;
+    margin-bottom: 50px;
 }
 
 .marques {
@@ -57,4 +66,63 @@ li {
 
 li > img{
     /* background-color: red; */
+}
+
+.contact {
+    background-color: #EC5600;
+}
+
+.title-white {
+    font-family: 'Modak', cursive;
+    font-size: 30px;
+    color: white;
+}
+
+.text-contact {
+    font-family: CaviarDreams;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 30px;
+}
+
+.footer {
+    background-color: #FAE7DA;
+    font-family: CaviarDreams;
+    font-size: 14px;
+}
+
+@media (min-width: 768px) { 
+    .app-container {
+        background-image: url(./images/illu\ desktop.png);
+    }
+
+    .title-black {
+        font-family: 'Modak', cursive;
+        font-size: 60px;
+    }    
+
+    .services {
+        margin-top: 120px;
+        margin-left: 196px;
+        margin-bottom: 135px;
+    } 
+
+    .text-caviar {
+        font-family: CaviarDreams;
+        font-size: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 0 30px;
+    }
+
+    .title-white {
+        font-family: 'Modak', cursive;
+        font-size: 60px;
+        color: white;
+        margin-left: 200px;
+    }
 }
