@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
 @font-face {
-    font-family : 'myFirstFont';
-    src: local("CaviarDreams"), url(CaviarDreams.ttf);
+    font-family : 'CaviarDreams';
+    src: local("CaviarDreams"), url('./fonts/CaviarDreams.ttf');
 }
 
 body{
-    font-family: 'myFirstFont';
+    font-family: 'CaviarDreams';
 }
 
 .top {
