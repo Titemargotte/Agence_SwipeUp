@@ -9,11 +9,21 @@
 
     <body>
         <section class="header">
-        <div class="top sm:flex items-center">
-            <div class="sm:w-32 flex justify-center sm:justify-start">
-                <img src="Images/LOGO-SWIPE.jpg" alt="logo swipe up" class="w-1/5 sm:w-auto"/>
+        <div class="top flex md:flex items-center">
+            <div class="flex-none ml-3 visible md:invisible">
+                <a href="#" id="openBtn">
+                    <span class="burger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </span>
+                </a>
             </div>
-            <div class="list-nav w-full invisible sm:visible">
+
+            <div class="md:w-32 flex justify-center md:justify-start">
+                <img src="Images/LOGO-SWIPE.jpg" alt="logo swipe up" class="w-1/5 md:w-auto"/>
+            </div>
+            <div class="list-nav w-full md:visible">
                 <nav>
                     <li><a href="#">NOS MAMAS</a></li>
                     <li><a href="#">NOS SERVICES</a></li>
@@ -25,8 +35,38 @@
         </div>
         </section>
         <div class="creme_mamme">
-            <img src="Images/la_creme_des_mamme.png" class="invisible sm:visible items-start"/>
-            <img src="Images/creme_mamme_mobile.png" class="visible sm:invisible"/>
+            <img src="Images/la_creme_des_mamme.png" class="img_creme_mamme md:visible items-start"/>
+            <img src="Images/creme_mamme_mobile.png" class="img_deleted_desktop visible"/>
+        </div>
+
+        <div class="nos_mamas">
+            <p class="nos_mamas_txt text-center md:text-left md:ml-11 pt-11">nos mamas</p>
+            <div class="flex justify-center pb-11">
+                <div class="container w-4/12 md:w-2/12">
+                    <img class="kenza" src="Images/kenza.PNG"/>
+                    <div class="title_kenza">KENZA SMG</div>
+                    <div class="subtitle_kenza">#auteure</div>
+                </div>
+                <div class="container w-4/12 ml-11 md:w-2/12 md:ml-10">
+                    <img class="other_image" src="Images/meryl.PNG"/>
+                    <div class="title_kenza">MERYL DENIS</div>
+                    <div class="subtitle_kenza">#mama de Tehio</div>
+                </div>
+                <div class="container_deleted_mobile w-4/12 md:w-2/12 md:ml-10">
+                    <img class="other_image" src="Images/candicereview.PNG"/>
+                    <div class="title_candice">CANDICEREVIEW</div>
+                    <div class="subtitle_candice">#styliste</div>
+                </div>
+                <div class="container_deleted_mobile w-4/12 md:w-2/12 md:ml-10">
+                    <img class="other_image" src="Images/manon_laime.PNG"/>
+                    <div class="title_candice">MANON LAIME</div>
+                    <div class="subtitle_candice">#blondie limonade</div>
+                </div>
+            </div>
+            <div class="grid justify-items-center pb-11">
+                <button class="btn_discover p-2">Découvrir nos mamas</button>
+            </div>
+        
         </div>
         
     </body>

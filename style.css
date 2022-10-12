@@ -25,6 +25,105 @@ li:hover{
 .cote-mama{
     font-weight: 800;
 }
+
+  
+  /* Icône burger */
+.burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: #EC5633;
+    margin: 6px 0;
+    border-radius: 5px;
+}
+
+
+
+/* Body */
 .creme_mamme{
     background-color: #FAE7DA;
+}
+
+.nos_mamas{
+    background-color: #FADA99;
+}
+
+.nos_mamas_txt {
+    font-family: 'Modak';
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+.kenza{
+    border-radius: 40px;
+}
+.other_image{
+    border-radius: 40px;
+    height:100%
+}
+
+.container{
+    position: relative;
+}
+
+.container_deleted_mobile{
+    position: relative;
+}
+
+.title_kenza{
+    position: absolute;
+    color: white;
+    bottom:15%;
+    left:20%;
+    font-size: 25px;
+}
+.subtitle_kenza{
+    position: absolute;
+    color: white;
+    bottom:10%;
+    left:20%
+}
+
+
+.title_candice{
+    position: absolute;
+    color: white;
+    bottom:15%;
+    left:10%;
+    font-size: 25px;
+}
+.subtitle_candice{
+    position: absolute;
+    color: white;
+    bottom:10%;
+    left:10%
+}
+
+.img_deleted_mobile{
+    border-radius: 40px;
+    margin-left: 5%;
+}
+.img_deleted_desktop{
+    display: none;
+}
+.btn_discover{
+    color:white;
+    background-color: #35553D;
+    border-radius: 7px;
+}
+@media only screen and (max-width : 768px) {
+    .list-nav{
+        display: none;
+    }
+    .img_creme_mamme{
+        display: none;
+    }
+    .container_deleted_mobile{
+        display: none;
+    }
+    .img_deleted_desktop{
+        display: block;
+    }
+    .title_kenza{
+        font-size: 20px;
+    }
 }
