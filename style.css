@@ -1,4 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+.list-nav{
+    display: none;
+}
+.img_creme_mamme{
+    display: none;
+}
+.container_deleted_mobile{
+    display: none;
+}
+.img_deleted_desktop{
+    display: block;
+}
+.title_kenza{
+    font-size: 20px;
+}
+.burger_menu{
+    display: block;
+}
 @font-face {
     font-family: CaviarDreams;
     font-weight: 400;
@@ -11,19 +30,10 @@ body{
 .top {
     background-color: #FAE7DA;
 }
-li{
-    list-style: none;
-    display: inline;
-}
-li:hover{
-    color:#34543C;
-    cursor:pointer
-}
-.list-nav{
-    text-align: center;
-}
+
 .cote-mama{
     font-weight: 800;
+    margin-left: 5%;
 }
 
   
@@ -98,32 +108,39 @@ li:hover{
     left:10%
 }
 
-.img_deleted_mobile{
-    border-radius: 40px;
-    margin-left: 5%;
-}
-.img_deleted_desktop{
-    display: none;
-}
+
+
 .btn_discover{
     color:white;
     background-color: #35553D;
     border-radius: 7px;
 }
-@media only screen and (max-width : 768px) {
+@media only screen and (min-width : 768px) {
+    li{
+        list-style: none;
+        display: inline;
+    }
+    li:hover{
+        color:#34543C;
+        cursor:pointer
+    }
     .list-nav{
+        display: block;
+        text-align: center;
+    }
+    .container_deleted_mobile{
+        display: block;
+    }
+    .img_deleted_desktop{
         display: none;
     }
     .img_creme_mamme{
-        display: none;
-    }
-    .container_deleted_mobile{
-        display: none;
-    }
-    .img_deleted_desktop{
         display: block;
     }
-    .title_kenza{
-        font-size: 20px;
+    .burger_menu{
+        display: none;
+    }
+    .item_list{
+        margin-left: 5%;
     }
 }
