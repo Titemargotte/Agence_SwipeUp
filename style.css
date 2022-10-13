@@ -28,9 +28,16 @@ body {
     text-align: center;
 }
 
+.title-mama {
+    font-family: 'Modak', cursive;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
 .services {
     margin-top: 20px;
-    margin-left: 100px;
+    justify-content: center;
     margin-bottom: 70px;
 }
 
@@ -45,7 +52,6 @@ body {
 
 .confiance {
     margin-top: 100px;
-    margin-left: 100px;
     margin-bottom: 40px;
 }
 
@@ -268,6 +274,9 @@ li {
     .item_list{
         margin-left: 5%;
     }
+    .btn_discover{
+        margin-left: 150px;
+    }
     .title_kenza{
         font-size: 25px;
     }
@@ -298,7 +307,14 @@ li {
         text-align: left;
     }
 
+    .title-mama {
+        font-size: 60px;
+        text-align: left;
+        margin-left: 196px;
+    }
+
     .services {
+        justify-content: start;
         margin-top: 120px;
         margin-left: 196px;
         margin-bottom: 135px;
