@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
 
+body {
+    font-family: CaviarDreams;
+}
+
 @font-face {
     font-family: CaviarDreams;
     font-weight: 400;
@@ -153,7 +157,138 @@ li {
     margin-bottom: 12px;
 }
 
-@media (min-width: 768px) {
+/* Navbar */
+.top {
+    background-color: #FAE7DA;
+}
+.list-nav{
+    display: none;
+}
+.img_creme_mamme{
+    display: none;
+}
+.container_deleted_mobile{
+    display: none;
+    position: relative;
+}
+.img_deleted_desktop{
+    display: block;
+}
+.title_kenza{
+    font-size: 20px;
+}
+.cote-mama{
+    font-weight: 800;
+    margin-left: 5%;
+}
+  
+/* Menu burger */
+.burger_menu{
+    display: block;
+}
+.burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: #EC5633;
+    margin: 6px 0;
+    border-radius: 5px;
+}
+
+/* Body */
+.creme_mamme{
+    background-color: #FAE7DA;
+}
+
+.nos_mamas{
+    background-color: #FADA99;
+}
+
+.nos_mamas_txt {
+    font-family: 'Modak';
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+.kenza{
+    border-radius: 40px;
+}
+.other_image{
+    border-radius: 40px;
+    height:100%
+}
+.container{
+    position: relative;
+}
+.title_kenza{
+    position: absolute;
+    color: white;
+    bottom:15%;
+    left:10%;
+    font-size: 20px;
+}
+.subtitle_kenza{
+    position: absolute;
+    color: white;
+    bottom:10%;
+    left:10%;
+    font-size:14px;
+}
+.btn_discover{
+    color:white;
+    background-color: #35553D;
+    border-radius: 7px;
+}
+
+/* Media Queries */
+@media only screen and (min-width : 768px) {
+    li{
+        list-style: none;
+        display: inline;
+    }
+    li:hover{
+        color:#34543C;
+        cursor:pointer
+    }
+    .list-nav{
+        display: block;
+        text-align: center;
+    }
+    .container_deleted_mobile{
+        display: block;
+    }
+    .img_deleted_desktop{
+        display: none;
+    }
+    .img_creme_mamme{
+        display: block;
+    }
+    .burger_menu{
+        display: none;
+    }
+    .item_list{
+        margin-left: 5%;
+    }
+    .title_kenza{
+        font-size: 25px;
+    }
+    .title_candice{
+        position: absolute;
+        color: white;
+        bottom:15%;
+        left:10%;
+        font-size: 25px;
+    }
+    .subtitle_candice{
+        position: absolute;
+        color: white;
+        bottom:10%;
+        left:10%;
+        font-size: 17px;
+    }
+    .subtitle_kenza{
+        font-size: 17px;
+    }
+
     .app-container {
         background-image: url(./images/illu\ desktop.png);
     }
