@@ -37,7 +37,7 @@ body{
 }
 
   
-  /* Icône burger */
+/* Icône burger */
 .burger-icon span {
     display: block;
     width: 35px;
@@ -46,8 +46,6 @@ body{
     margin: 6px 0;
     border-radius: 5px;
 }
-
-
 
 /* Body */
 .creme_mamme{
@@ -83,32 +81,16 @@ body{
     position: absolute;
     color: white;
     bottom:15%;
-    left:20%;
-    font-size: 25px;
+    left:10%;
+    font-size: 20px;
 }
 .subtitle_kenza{
     position: absolute;
     color: white;
     bottom:10%;
-    left:20%
-}
-
-
-.title_candice{
-    position: absolute;
-    color: white;
-    bottom:15%;
     left:10%;
-    font-size: 25px;
+    font-size:14px;
 }
-.subtitle_candice{
-    position: absolute;
-    color: white;
-    bottom:10%;
-    left:10%
-}
-
-
 
 .btn_discover{
     color:white;
@@ -142,5 +124,25 @@ body{
     }
     .item_list{
         margin-left: 5%;
+    }
+    .title_kenza{
+        font-size: 25px;
+    }
+    .title_candice{
+        position: absolute;
+        color: white;
+        bottom:15%;
+        left:10%;
+        font-size: 25px;
+    }
+    .subtitle_candice{
+        position: absolute;
+        color: white;
+        bottom:10%;
+        left:10%;
+        font-size: 17px;
+    }
+    .subtitle_kenza{
+        font-size: 17px;
     }
 }
