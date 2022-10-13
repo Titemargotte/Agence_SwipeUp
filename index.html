@@ -1,65 +1,73 @@
 <!DOCTYPE html>
-    <head>
-        <title>Swipe up</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="https://cdn.tailwindcss.com"></script>
-        <script>
-            tailwind.config = {
-              theme: {
-                extend: {
-                  colors: {
-                    clifford: '#da373d',
-                  }
-                }
-              }
-            }
-          </script>
-    </head>
+
+<head>
+  <title>Swipe up</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
 
 
-    <body>
-        <div class="app-container">
-          <div class="services" style="display: flex;">
-            <h1 class="title-black">nos services</h1>
-          </div>
-          <div class="text-caviar">
-              <p class="text-caviar">+ Influence Marketing</p>
-              <p class="text-caviar">+ Social media</p>
-              <p class="text-caviar">+ Brand content</p>
-              <p class="text-caviar">+ Interviews blog</p>
-          </div>
-          <div class="confiance" style="display :flex; justify-content: center;">
-              <h1 class="title-black">elles nous ont fait confiance...</h1>
-          </div>
-          <div class="marques-container">
-            <div class="marques">
-              <li><img src="images/1babyzen.png"></li>
-              <li><img src="images/1izipizi.png"></li>
-              <li><img src="images/1liewood.png"></li>
-            </div>
-            <div class="marques">
-              <li><img src="images/1nobodinoz.png"></li>
-              <li><img src="images/1tajine.png"></li>
-              <li><img src="images/1twistshake.png"></li>
-            </div>
-          </div>
+<body>
+  <div class="app-container">
+    <div class="services" style="display: flex;">
+      <h1 class="title-black">nos services</h1>
+    </div>
+    <div class="text-caviar">
+      <p class="text-caviar">+ Influence Marketing</p>
+      <p class="text-caviar">+ Social media</p>
+      <p class="text-caviar">+ Brand content</p>
+      <p class="text-caviar">+ Interviews blog</p>
+    </div>
+    <div class="confiance" style="display :flex;">
+      <h1 class="title-black">elles nous ont fait confiance...</h1>
+    </div>
+    <div style="display: flex; align-items: center; justify-content: center;">
+      <div class="marques-container">
+        <div class="marques">
+          <li><img src="images/1babyzen.png"></li>
+          <li><img src="images/1izipizi.png"></li>
+          <li><img src="images/1liewood.png"></li>
         </div>
+        <div class="marques">
+          <li><img src="images/1nobodinoz.png"></li>
+          <li><img src="images/1tajine.png"></li>
+          <li><img src="images/1twistshake.png"></li>
+        </div>
+      </div>
+    </div>
+  </div>
 
-        <div class="contact" style="display: flex;">
-          <h1 class="title-white">contact</h1>
-          <div class="text-contact">
-            <p class="text-contact">Nom, Prénom</p>
-            <p class="text-contact">Adresse mail</p>
-            <p class="text-contact">Message</p>
-        </div>
-        </div>
+  <div class="contact">
+    <h1 class="title-white">contact</h1>
+    <div class="contact-form">
+      <input type="text" class="contact-input" placeholder="Nom, Prénom" />
+      <input type="text" class="contact-input" placeholder="Adresse mail" />
+      <div>
+        <div class="contact-form-title">Message</div>
+        <textarea class="contact-textarea" rows="5"></textarea>
+      </div>
+      <button>Envoyer</button>
+    </div>
+  </div>
 
-        <div class="footer" style="display :flex; justify-content: center;">
-          <img src="images/LOGO-SWIPE.jpg"/>
-          <img src="images/pcito RS-1.png"/>
-          <p class="footer"> Mentions légales</p>
-          <p class="footer"> 2023 - Swipe up</p>
-        </div>
-        </div>
-    </body>
+  <div class="footer" style="display :flex; justify-content: center;">
+    <img class="footer-logo" src="images/LOGO-SWIPEpng.png" />
+    <img class="social-logos" src="images/pcito RS-1.png" />
+    <p> Mentions légales</p>
+    <p> 2023 - Swipe up</p>
+  </div>
+</body>
+
 </html>
