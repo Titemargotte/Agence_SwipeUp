@@ -1,73 +1,125 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Agence Swipe Up</title>
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link href="style.css" rel="stylesheet" type="text/css">
-    </head>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agence Swipe Up</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
 
 
-    <body>
-        <section class="header">
-            <div class="top flex items-center">
-                <div class="burger_menu flex-none ml-3">
-                    <a href="#" id="openBtn">
-                        <span class="burger-icon">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        </span>
-                    </a>
-                </div>
+<body>
+  <section class="header">
+    <div class="top flex items-center">
+      <div class="burger_menu flex-none ml-3">
+        <a href="#" id="openBtn">
+          <span class="burger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </a>
+      </div>
 
-                <div class="md:w-32 flex justify-center mr-10 md:justify-start">
-                    <img src="Images/LOGO-SWIPE.jpg" alt="logo swipe up" class="w-1/5 md:w-auto"/>
-                </div>
-                <div class="list-nav w-full md:visible">
-                    <nav>
-                        <li class="item_list"><a href="#">NOS MAMAS</a></li>
-                        <li class="item_list"><a href="#">NOS SERVICES</a></li>
-                        <li class="item_list"><a href="#">NOS MARQUES</a></li>
-                        <li class="item_list"><a href="#">CONTACT</a></li>
-                        <li class="cote-mama"><a href="#">CÔTÉ MAMA</a></li>
-                    </nav>
-                </div>
-            </div>
-        </section>
-        <div class="creme_mamme">
-            <img src="Images/la_creme_des_mamme.png" class="img_creme_mamme md:visible items-start"/>
-            <img src="Images/creme_mamme_mobile.png" class="img_deleted_desktop visible"/>
+      <div class="md:w-32 flex justify-center mr-10 md:justify-start">
+        <img src="Images/LOGO-SWIPE.jpg" alt="logo swipe up" class="w-1/5 md:w-auto" />
+      </div>
+      <div class="list-nav w-full md:visible">
+        <nav>
+          <li class="item_list"><a href="#">NOS MAMAS</a></li>
+          <li class="item_list"><a href="#">NOS SERVICES</a></li>
+          <li class="item_list"><a href="#">NOS MARQUES</a></li>
+          <li class="item_list"><a href="#">CONTACT</a></li>
+          <li class="cote-mama"><a href="#">CÔTÉ MAMA</a></li>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <div class="creme_mamme">
+    <img src="Images/la_creme_des_mamme.png" class="img_creme_mamme md:visible items-start" />
+    <img src="Images/creme_mamme_mobile.png" class="img_deleted_desktop visible" />
+  </div>
+
+  <div class="nos_mamas">
+    <h1 class="nos_mamas_txt text-center md:text-left md:ml-11 pt-11">nos mamas</h1>
+    <div class="flex justify-center pb-11">
+      <div class="container w-4/12 md:w-2/12">
+        <img class="kenza" src="Images/kenza.PNG" />
+        <div class="title_kenza">KENZA SMG</div>
+        <div class="subtitle_kenza">#auteure</div>
+      </div>
+      <div class="container w-4/12 ml-11 md:w-2/12 md:ml-10">
+        <img class="other_image" src="Images/meryl.PNG" />
+        <div class="title_kenza">MERYL DENIS</div>
+        <div class="subtitle_kenza">#mama de Tehio</div>
+      </div>
+      <div class="container_deleted_mobile w-4/12 md:w-2/12 md:ml-10">
+        <img class="other_image" src="Images/candicereview.PNG" />
+        <div class="title_candice">CANDICE REVIEW</div>
+        <div class="subtitle_candice">#styliste</div>
+      </div>
+      <div class="container_deleted_mobile w-4/12 md:w-2/12 md:ml-10">
+        <img class="other_image" src="Images/manon_laime.PNG" />
+        <div class="title_candice">MANON LAIME</div>
+        <div class="subtitle_candice">#blondie limonade</div>
+      </div>
+    </div>
+    <div class="grid justify-items-center md:justify-items-start md:ml-11 pb-11">
+      <button class="btn_discover p-2">Découvrir nos mamas</button>
+    </div>
+  </div>
+
+  <div class="app-container">
+    <div class="services" style="display: flex;">
+      <h1 class="title-black">nos services</h1>
+    </div>
+    <div class="text-caviar">
+      <p class="text-caviar">+ Influence Marketing</p>
+      <p class="text-caviar">+ Social media</p>
+      <p class="text-caviar">+ Brand content</p>
+      <p class="text-caviar">+ Interviews blog</p>
+    </div>
+    <div class="confiance" style="display :flex;">
+      <h1 class="title-black">elles nous ont fait confiance...</h1>
+    </div>
+    <div style="display: flex; align-items: center; justify-content: center;">
+      <div class="marques-container">
+        <div class="marques">
+          <li><img src="images/1babyzen.png"></li>
+          <li><img src="images/1izipizi.png"></li>
+          <li><img src="images/1liewood.png"></li>
         </div>
-
-        <div class="nos_mamas">
-            <h1 class="nos_mamas_txt text-center md:text-left md:ml-11 pt-11">nos mamas</h1>
-            <div class="flex justify-center pb-11">
-                <div class="container w-4/12 md:w-2/12">
-                    <img class="kenza" src="Images/kenza.PNG"/>
-                    <div class="title_kenza">KENZA SMG</div>
-                    <div class="subtitle_kenza">#auteure</div>
-                </div>
-                <div class="container w-4/12 ml-11 md:w-2/12 md:ml-10">
-                    <img class="other_image" src="Images/meryl.PNG"/>
-                    <div class="title_kenza">MERYL DENIS</div>
-                    <div class="subtitle_kenza">#mama de Tehio</div>
-                </div>
-                <div class="container_deleted_mobile w-4/12 md:w-2/12 md:ml-10">
-                    <img class="other_image" src="Images/candicereview.PNG"/>
-                    <div class="title_candice">CANDICE REVIEW</div>
-                    <div class="subtitle_candice">#styliste</div>
-                </div>
-                <div class="container_deleted_mobile w-4/12 md:w-2/12 md:ml-10">
-                    <img class="other_image" src="Images/manon_laime.PNG"/>
-                    <div class="title_candice">MANON LAIME</div>
-                    <div class="subtitle_candice">#blondie limonade</div>
-                </div>
-            </div>
-            <div class="grid justify-items-center md:justify-items-start md:ml-11 pb-11">
-                <button class="btn_discover p-2">Découvrir nos mamas</button>
-            </div>
+        <div class="marques">
+          <li><img src="images/1nobodinoz.png"></li>
+          <li><img src="images/1tajine.png"></li>
+          <li><img src="images/1twistshake.png"></li>
         </div>
-        
-    </body>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact">
+    <h1 class="title-white">contact</h1>
+    <div class="contact-form">
+      <input type="text" class="contact-input" placeholder="Nom, Prénom" />
+      <input type="text" class="contact-input" placeholder="Adresse mail" />
+      <div>
+        <div class="contact-form-title">Message</div>
+        <textarea class="contact-textarea" rows="5"></textarea>
+      </div>
+      <button>Envoyer</button>
+    </div>
+  </div>
+
+  <div class="footer" style="display :flex; justify-content: center;">
+    <img class="footer-logo" src="images/LOGO-SWIPEpng.png" />
+    <img class="social-logos" src="images/pcito RS-1.png" />
+    <p> Mentions légales</p>
+    <p> 2023 - Swipe up</p>
+  </div>
+
+</body>
+
 </html>

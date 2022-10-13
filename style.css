@@ -1,12 +1,160 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
 
+body {
+    font-family: CaviarDreams;
+}
+
 @font-face {
     font-family: CaviarDreams;
     font-weight: 400;
     src: url(./fonts/CaviarDreams.ttf);
 }
-body{
+
+@font-face {
     font-family: CaviarDreams;
+    font-weight: bold;
+    src: url(./fonts/CaviarDreams_Bold.ttf);
+}
+
+.app-container {
+    background-image: url(./images/illu\ mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-black {
+    font-family: 'Modak', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.services {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 70px;
+}
+
+.text-caviar {
+    font-family: CaviarDreams;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 30px;
+}
+
+.confiance {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.marques-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 0 30px;
+    margin-bottom: 50px;
+    max-width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.marques {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+li {
+    flex: 1 1 0px;
+    min-width: 0;
+}
+
+.contact {
+    background-color: #EC5600;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 65px 54px 65px;
+}
+
+.title-white {
+    font-family: 'Modak', cursive;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    font-family: CaviarDreams;
+    gap: 40px;
+    color: white;
+    margin-left: 0;
+    margin-top: 50px;
+}
+
+.contact-form button {
+    align-self: flex-start;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 10px;
+}
+
+.contact-form-title {
+    font-size: 14px;
+}
+
+.contact-input {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 6px;
+    max-width: 100%;
+}
+
+.contact-input::placeholder {
+    color: white;
+}
+
+.contact-textarea {
+    display: block;
+    border-radius: 20px;
+    margin-top: 5px;
+    width: 100%;
+    color: #161F21;
+    padding: 15px;
+}
+
+.footer {
+    background-color: #FAE7DA;
+    font-family: CaviarDreams;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 60px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.social-logos {
+    height: 34px;
+    width: auto;
+    margin-bottom: 12px;
 }
 
 /* Navbar */
@@ -139,5 +287,62 @@ body{
     }
     .subtitle_kenza{
         font-size: 17px;
+    }
+
+    .app-container {
+        background-image: url(./images/illu\ desktop.png);
+    }
+
+    .title-black {
+        font-size: 60px;
+        text-align: left;
+    }
+
+    .services {
+        margin-top: 120px;
+        margin-left: 196px;
+        margin-bottom: 135px;
+    }
+
+    .confiance {
+        margin-top: 120px;
+        margin-left: 196px;
+        margin-bottom: 135px;
+    }
+
+    .text-caviar {
+        font-family: CaviarDreams;
+        font-size: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 0 30px;
+    }
+
+    .contact {
+        padding: 124px 180px;
+    }
+
+    .title-white {
+        font-size: 60px;
+        color: white;
+        text-align: left;
+    }
+
+    .contact-input {
+        max-width: 45%;
+    }
+
+    .contact-textarea {
+        max-width: 55%;
+    }
+
+    .contact-form {
+        margin-left: 40px;
+    }
+
+    .footer {
+        padding: 32px 180px;
+        align-items: flex-start;
     }
 }
