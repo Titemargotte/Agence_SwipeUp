@@ -1,23 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
 
-.list-nav{
-    display: none;
-}
-.img_creme_mamme{
-    display: none;
-}
-.container_deleted_mobile{
-    display: none;
-}
-.img_deleted_desktop{
-    display: block;
-}
-.title_kenza{
-    font-size: 20px;
-}
-.burger_menu{
-    display: block;
-}
 @font-face {
     font-family: CaviarDreams;
     font-weight: 400;
@@ -27,17 +9,35 @@ body{
     font-family: CaviarDreams;
 }
 
+/* Navbar */
 .top {
     background-color: #FAE7DA;
 }
-
+.list-nav{
+    display: none;
+}
+.img_creme_mamme{
+    display: none;
+}
+.container_deleted_mobile{
+    display: none;
+    position: relative;
+}
+.img_deleted_desktop{
+    display: block;
+}
+.title_kenza{
+    font-size: 20px;
+}
 .cote-mama{
     font-weight: 800;
     margin-left: 5%;
 }
-
   
-/* Icône burger */
+/* Menu burger */
+.burger_menu{
+    display: block;
+}
 .burger-icon span {
     display: block;
     width: 35px;
@@ -68,15 +68,9 @@ body{
     border-radius: 40px;
     height:100%
 }
-
 .container{
     position: relative;
 }
-
-.container_deleted_mobile{
-    position: relative;
-}
-
 .title_kenza{
     position: absolute;
     color: white;
@@ -91,12 +85,13 @@ body{
     left:10%;
     font-size:14px;
 }
-
 .btn_discover{
     color:white;
     background-color: #35553D;
     border-radius: 7px;
 }
+
+/* Media Queries */
 @media only screen and (min-width : 768px) {
     li{
         list-style: none;
